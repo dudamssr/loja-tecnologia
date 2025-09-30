@@ -1,0 +1,144 @@
+body{
+    font-family: "Segoe Ul", "sans-serif";
+    margin: 0;
+    background-color: #EAC3BF;
+    color: white ;
+}
+
+header{
+    background-color: #B77D77 ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /*Negrito*/
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #5A3735;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.tabela-container{
+    width: 90%;
+    max-width: 1000px;
+    background: #5A3735;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #9F544A;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+.tabela-container h2{
+margin-bottom: 20px;
+text-align: center;
+color:#EAC3BF;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+thead{
+    background: #EAC3BF;
+    color: #B77D77;
+}
+thead th{
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+   
+}
+
+td img{
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #5A3735;
+}
+
+tbody tr:nth-child(1){background-color: #9F544A}
+tbody tr:nth-child(2){background-color: #B77D77}
+tbody tr:nth-child(3){background-color: #9F544A}
+tbody tr:nth-child(4){background-color: #B77D77}
+body tr:nth-child(5){background-color: #9F544A}
+tbody tr:nth-child(6){background-color: #B77D77}
+
+
+tbody td {
+    padding: 12px 14px;
+    font-size: 15px;
+}
+
+tbody td a{
+    color: #EAC3BF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+tbody td a:hover{
+    color:#B77D77;
+    text-decoration: underline;
+}
+
+tbody tr {
+    transition: background 0.3s, transforme 0,2s;
+}
+
+tbody tr:hover{
+    transform: scale(1.01);
+    filter: brightness(0.95);
+}
+
+.preco{
+    color: #EAC3BF;
+    font-weight: bold;
+}
+
+.estoque{
+    font-weight: bold;
+}
+
+.estoque.baixo{
+    color: #EAC3BF;
+}
+
+.estoque.alto{
+    color:#EAC3BF; 
+}
+
+footer{
+    background: #B77D77;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+/*PRODUTO 1 NOTEBOOK*/
